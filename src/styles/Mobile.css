@@ -1,0 +1,211 @@
+.mobile-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-logo-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    background-color: #eaeaea;
+    box-shadow: 0px 0px 40px 29px #eaeaea;
+}
+
+#mobile-logo {
+    padding: 6%;
+    padding-bottom: 9%;
+    height: 12vw;
+}
+
+.mobile-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Lora', sans-serif;
+    font-size: 6vw;
+    z-index: 1;
+    margin-bottom: 15vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 20vw;
+    height: 55vh;
+}
+
+.mobile-top-container img {
+    filter: grayscale();
+    opacity: 7%;
+    position: absolute;
+    max-width: 80%;
+}
+
+.mobile-home-page-big-text {
+    margin-top: 2%;
+    text-transform: capitalize;
+}
+
+.mobile-big-text-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-big-text-caption span {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.mobile-home-page-btn {
+    flex: 1 1 auto;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+    padding: 3vw;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #588157;
+    font-size: 2ch;
+    font-family: inherit;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.mobile-faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A5A40;
+
+}
+
+.mobile-faq h2 {
+    font-size: 5vw;
+
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.mobile-accordion {
+    background-color: #3A5A40;
+    color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .8s;
+    font-size: 3.2vw;
+    text-align: center;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.mobile-accordion:hover {
+    background-color: #eee;
+    color: black;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.mobile-panel {
+    padding: 18px;
+    background-color: #eee;
+    color: black;
+    display: none;
+    overflow: hidden;
+}
+
+.mobile-see-more {
+    display: flex;
+    flex-direction: column;
+    background-color: #588157;
+}
+
+.mobile-see-more h2 {
+    font-size: 7vw;
+    text-align: center;
+}
+
+.mobile-see-more ul {
+    font-size: 5.4vw;
+    margin-bottom: 20vw;
+    color: white;
+}
+
+.visit-desktop {
+    background-color: white;
+    font-size: 6vw;
+    text-align: center;
+    padding: 10%;
+}
+
+.mobile-footer {
+    background-color: #3A5A40;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 75px;
+    padding-top: 30px;
+}
+
+.social {
+    margin: 10px 15px 10px 15px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 5px 6px 7px rgb(48, 48, 48);
+}
+
+#facebook {
+    padding: 10px 19px 10px 19px;
+    background: #3B5998;
+    color: white;
+}
+
+#facebook:hover {
+    background: #ffffff;
+    color: black;
+}
+
+#twitter {
+    padding: 10px 13px 10px 13px;
+    background: #55ACEE;
+    color: white;
+}
+
+#twitter:hover {
+    background: #ffffff;
+    color: black;
+}
+
+#linkdin {
+    padding: 10px 15px 10px 15px;
+    background: #007bb5;
+    color: white;
+}
+
+#linkdin:hover {
+    background: #ffffff;
+    color: black;
+}
+
+#instagram {
+    padding: 10px 15px 10px 15px;
+    background: linear-gradient(45deg, yellow, red, blue, indigo);
+    color: white;
+}
+
+#instagram:hover {
+    background: #ffffff;
+    color: black;
+}

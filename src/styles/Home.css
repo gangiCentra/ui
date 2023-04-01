@@ -1,0 +1,406 @@
+.top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Lora', sans-serif;
+    font-size: 170%;
+    z-index: 1;
+    margin-bottom: 2%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.top-container img {
+    filter: grayscale();
+    opacity: 7%;
+    position: absolute;
+}
+
+.home-page-big-text {
+    margin-top: 2%;
+    width: 70%;
+}
+
+.big-text-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text-caption span {
+    margin-top: 10px;
+}
+
+.home-page-header {
+    text-align: center;
+}
+
+.we-are-centra-container {
+    display: flex;
+    flex-direction: row;
+    height: fit-content
+}
+
+.we-are-centra-text-container {
+    background-color: white;
+    z-index: 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5vw;
+    width: 82%;
+    height: fit-content;
+}
+
+.header-container-we-are-centra {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-top: 3%;
+    height: 30%;
+}
+
+.header-container-we-are-centra h2 {
+    font-size: 3.6vw;
+    margin: 0;
+}
+
+.header-container-we-are-centra h1 {
+    font-size: 4.3vw;
+    margin: 0;
+    border-bottom: solid 5px #3A5A40;
+    width: fit-content;
+}
+
+.left-side-we-are-centra {
+    background-color: whitesmoke;
+    width: 70%;
+    height: fit-content;
+}
+
+.we-are-centra-caption {
+    font-size: 1.6vw;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 3%;
+    width: 70%;
+    color: rgb(117, 111, 111);
+}
+
+.we-are-centra-caption-2 {
+    font-size: 1.6vw;
+    color: rgb(144, 135, 135);
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+
+.right-side-we-are-centra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.right-side-we-are-centra img {
+    width: 60%;
+    filter: grayscale();
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.right-side-we-are-centra img:nth-child(1) {
+    margin-left: 20%;
+
+}
+
+
+mark {
+    color: #3A5A40;
+    background-color: transparent;
+}
+
+.home-page-btn {
+    flex: 1 1 auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #588157;
+    font-size: 2ch;
+    font-family: inherit;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    border: none;
+    z-index: 3;
+}
+
+.home-page-btn:hover {
+    transform: scale(1.1);
+}
+
+.free-strat-btn {
+    flex: 1 1 auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #588157;
+    font-size: 3ch;
+    font-family: inherit;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 80%;
+}
+
+.we-are-centra-btn {
+    --b: 3px;
+    /* thickness of the border */
+    --c: #588157;
+    /* color of the border */
+    --w: 20px;
+    /* width of border */
+
+
+    border: var(--b) solid #0000;
+    /* space for the border */
+    --_g: #0000 90deg, var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from 90deg at top var(--b) left var(--b), var(--_g)) 0 0 / var(--_p),
+        /* conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p), */
+        /* conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p), */
+        conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-size: 2.1ch;
+    width: 11vw;
+    height: 6vh;
+}
+
+.who-we-help-h1 {
+    text-transform: capitalize;
+    text-align: center;
+    padding: -3rem;
+}
+
+p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eeee;
+}
+
+.middle-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.middle-text h2 {
+    font-size: 3vw;
+    padding-left: 2%;
+    width: 90%;
+}
+
+.middle-text span {
+    font-size: 1.4vw;
+    padding-left: 2%;
+    width: 90%;
+}
+
+.middle-text ul {
+    text-transform: none;
+    list-style: none;
+    width: 85%;
+}
+
+.middle-text li:before {
+    font-family: 'FontAwesome';
+    content: '\2714\0020';
+    margin: 0 5px 0 -15px;
+    color: green;
+}
+
+.middle-text li {
+    font-size: 1.4vw;
+}
+
+.picture-middle {
+    padding: 4%;
+    width: fit-content;
+}
+
+.picture-middle img {
+    width: 100%;
+    height: inherit;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icon-header {
+    font-size: 3.4vw;
+    align-self: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: inherit;
+    min-height: 750px;
+    margin-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+    border: solid;
+    border-color: lightgray;
+}
+
+.icon-titles {
+    font-size: 2vw;
+}
+
+.icon-description {
+    font-size: 1.4vw;
+}
+
+.icon-images {
+    width: 27vw;
+}
+
+
+.icons div img {
+    min-width: 200px;
+    max-width: 350px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+.icons div span {
+    margin-bottom: 5%;
+    font-size: 3.2ch;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A5A40;
+    color: white;
+}
+
+.faq h2 {
+    font-size: 3vw;
+
+}
+
+.faq button {
+    font-size: 1.5vw;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #3A5A40;
+    color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .8s;
+    font-size: 2.4vw;
+    text-align: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #eee;
+    color: black;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #eee;
+    color: black;
+    display: none;
+    overflow: hidden;
+}
+
+.work-with-us {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.work-with-us h1 {
+    margin-top: 3%;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.contact-now-btn {
+    width: 30%;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #3A5A40;
+    font-size: 2vw;
+    font-family: inherit;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}

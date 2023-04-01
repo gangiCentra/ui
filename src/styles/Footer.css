@@ -1,0 +1,83 @@
+.footer-div {
+    display: flex;
+    background-color: #3A5A40;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #DAD7CD;
+    max-width: 400px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 20px 20px 20px 20px;
+}
+
+.footer-page-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.social-container {
+    justify-content: space-evenly;
+}
+
+.social {
+    margin: 10px 15px 10px 15px;
+    padding: 20px;
+    font-size: 30px;
+    width: 3vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 5px 6px 7px rgb(48, 48, 48);
+}
+
+#facebook {
+    padding: 20px 28px 20px 28px;
+    background: #3B5998;
+    color: white;
+}
+
+#facebook:hover {
+    background: #ffffff;
+    color: black;
+}
+
+#twitter {
+    padding: 20px 23px 20px 23px;
+    background: #55ACEE;
+    color: white;
+}
+
+#twitter:hover {
+    background: #ffffff;
+    color: black;
+}
+
+#linkdin {
+    padding: 20px 24px 20px 24px;
+    background: #007bb5;
+    color: white;
+}
+
+#linkdin:hover {
+    background: #ffffff;
+    color: black;
+}
+
+#instagram {
+    padding: 20px 24px 20px 24px;
+    background: linear-gradient(45deg, yellow, red, blue, indigo);
+    color: white;
+}
+
+#instagram:hover {
+    background: #ffffff;
+    color: black;
+}

@@ -1,0 +1,189 @@
+.services-top-container {
+    text-align: center;
+}
+
+.ecommerce-shout-out {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 170%;
+    margin-bottom: 21.5vw;
+}
+
+.ecommerce-shout-out h1 {
+    padding-top: 4.5vw;
+}
+
+.ecommerce-shout-out img {
+    filter: grayscale();
+    opacity: 7%;
+    position: absolute;
+}
+
+.white {
+    color: #eee;
+}
+
+.bottom-header {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.bottom-header h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.wwh-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.wwh-card {
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    width: 25%;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+}
+
+.wwh-card h2 {
+    font-weight: 400;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.wwh-card .card-content img {
+    width: 60%;
+}
+
+.steps-backdrop {
+    background: #f0f0f0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps-backdrop h1 {
+    align-self: center;
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    font-weight: 700;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-bottom: 4vw;
+}
+
+.row h2 {
+    font-size: 3vw;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.row p {
+    font-size: 1.6vw;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row div {
+    width: 50%;
+}
+
+
+
+.row div:nth-child(even) {
+    margin-left: 5vw;
+}
+
+.row div span {
+    --b: 3px;
+    /* thickness of the border */
+    --c: #588157;
+    /* color of the border */
+    --w: 20px;
+    /* width of border */
+
+
+    border: var(--b) solid #0000;
+    /* space for the border */
+    --_g: #0000 90deg, var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from 90deg at top var(--b) left var(--b), var(--_g)) 0 0 / var(--_p),
+        /* conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p), */
+        /* conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p), */
+        conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+
+    /*Irrelevant code*/
+    width: 2vw;
+    height: inherit;
+    box-sizing: border-box;
+    margin: 5px;
+    display: inline-flex;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vw;
+}
+
+.hexagon {
+    -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.get-specfic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 7vw;
+}
+
+.get-specfic h2 {
+    font-size: 3vw;
+}
+
+.get-specfic h1 {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.get-specfic span {
+    font-size: 1.4vw;
+    width: 60%;
+    border-bottom: #588157 solid 2px;
+    padding-bottom: 5vw;
+    margin-bottom: 3vw;
+}

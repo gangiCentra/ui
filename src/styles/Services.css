@@ -1,0 +1,171 @@
+.parent-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.services-top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 170%;
+    margin-bottom: 3%;
+}
+
+.services-top-container img {
+    filter: grayscale();
+    opacity: 7%;
+    position: absolute;
+}
+
+.services-top-container h1 {
+    width: 80%;
+    margin-bottom: 4vw;
+}
+
+.services-top-container caption {
+    width: 75%;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.services-top-container .contact-now-btn {
+    flex: 1 1 auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #588157;
+    font-size: 2ch;
+    font-family: inherit;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.services-middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.services-middle-container h2 {
+    margin-left: 5%;
+    font-size: 7vw;
+    font-weight: 600;
+}
+
+.header-container {
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+.all-unique-text {
+    padding-left: 3vw;
+    margin-bottom: 4vw;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 300;
+    background-color: #e6e6e6;
+    line-height: 3vw;
+}
+
+.all-unique-text img {
+    width: 50%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.discover-text {
+    padding-left: 3vw;
+    margin-bottom: 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 300;
+    line-height: 3vw;
+}
+
+.discover-text img {
+    width: 60%;
+    margin-left: 3%;
+    width: 50%;
+}
+
+#services-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.bottom-container-header {
+    text-align: center;
+}
+
+.bottom-container-header h1 {
+    font-size: 5ch;
+}
+
+.card {
+    height: 80%;
+    min-height: 60vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    width: 25%;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.card-content img {
+    width: 60%;
+}
+
+.card-content h2 {
+    font-size: 3ch;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.card-content p {
+    text-align: left;
+    font-size: 2.3ch;
+    text-align: center;
+}
+
+.card-content ul {
+    list-style: none;
+    align-self: flex-start;
+    padding-right: 1vw;
+}
+
+.card-content li:before {
+    font-family: 'FontAwesome';
+    content: '\2714\0020';
+    margin: 0 5px 0 -15px;
+    color: green;
+}
+
+.card-content li {
+    margin-bottom: 2vw;
+    font-size: 2ch;
+}
